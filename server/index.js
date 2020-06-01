@@ -60,4 +60,4 @@ app.put('/reviews', ({body: { _id }}, res) => { // nested destructuring
   .then(data => res.send(data));
 });
 
-app.listen(2400, () => console.log('Proxy Server Listening to Requests on Port 2400...'));
+app.listen(8080, () => console.log('Proxy Server Listening to Requests on Port 8080...'));
